@@ -9,9 +9,9 @@
 ### **Cuffless Blood Pressure Estimation using PPG + Deep Learning**
 
 <p align="center">
-  <img src="data/screenshots/ss1.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/Skywalker-organa/Pulse2PressureNet/main/data/screenshots/ss1.png" width="700"/>
   <br>
-  <img src="data/screenshots/ss2.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/Skywalker-organa/Pulse2PressureNet/main/data/screenshots/ss2.png" width="700"/>
 </p>
 
 **Pulse2PressureNet** is a deep learning–based biomedical AI system that estimates  
@@ -22,9 +22,8 @@ CNN–LSTM hybrid architecture with real-time deployment through Streamlit.
 
 ## 🌐 Live Demo
 
-🔗 **App:** https://your-streamlit-link  
-🔗 **Repository:** https://github.com/YOUR_NAME/Pulse2PressureNet  
-
+🔗 **App:** https://pulse2pressurenet-uanltapgwn29ft2q883tpj.streamlit.app/
+🔗 **Repository:** https://github.com/Skywalker-organa/Pulse2PressureNet
 ---
 
 ## 🚀 Features
