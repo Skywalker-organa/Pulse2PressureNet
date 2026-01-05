@@ -56,13 +56,13 @@ if __name__ == "__main__":
     model = SimpleBPModel()
 
     total_params = sum(p.numel() for p in model.parameters())
-    print("✅ Model created!")
+    print("Model created!")
     print(f"   Parameters: {total_params:,}")
 
     dummy_input = torch.randn(4, 1, 1250)
     output = model(dummy_input)
 
-    print("\n✅ Forward pass works!")
+    print("\nForward pass works!")
     print(f"   Input shape: {dummy_input.shape}")
     print(f"   Output shape: {output.shape}")
     print(f"   Sample prediction: [{output[0,0]:.1f}, {output[0,1]:.1f}]")

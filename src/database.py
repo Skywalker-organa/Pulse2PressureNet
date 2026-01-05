@@ -61,7 +61,7 @@ class PPGDatabase:
         ''')
         
         self.conn.commit()
-        print("✅ Database tables created")
+        print("Database tables created")
     
     def _adapt_array(self, arr):
         """Convert numpy array to bytes for storage"""
@@ -176,11 +176,11 @@ if __name__ == "__main__":
         heart_rate=75,
         signal=test_signal
     )
-    print(f"✅ Inserted recording ID: {recording_id}")
+    print(f"Inserted recording ID: {recording_id}")
     
     # Get statistics
     stats = db.get_statistics()
     print(f"\nDatabase stats: {stats}")
     
     db.close()
-    print("✅ Database test complete")
+    print("Database test complete")

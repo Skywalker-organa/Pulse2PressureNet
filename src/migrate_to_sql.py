@@ -35,7 +35,7 @@ for record in tqdm(data, desc="Migrating"):
 
 # Show stats
 stats = db.get_statistics()
-print(f"\n✅ Migration complete!")
+print(f"\n Migration complete!")
 print(f"   Patients: {stats['total_patients']}")
 print(f"   Recordings: {stats['total_recordings']}")
 print(f"   Average BP: {stats['avg_bp']} mmHg")

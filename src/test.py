@@ -115,5 +115,5 @@ plt.tight_layout()
 os.makedirs("results", exist_ok=True)
 plt.savefig("results/predictions.png", dpi=150)
 
-print("\n✅ Prediction plot saved to results/predictions.png")
+print("\nPrediction plot saved to results/predictions.png")
 plt.show()

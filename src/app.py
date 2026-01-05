@@ -109,7 +109,7 @@ with tab1:
                 error_sys = abs(pred_sys - true_sys)
                 error_dia = abs(pred_dia - true_dia)
 
-            st.success("✅ Prediction Complete!")
+            st.success("Prediction Complete!")
 
             colA, colB = st.columns(2)
 
@@ -140,9 +140,7 @@ with tab1:
             st.pyplot(fig)
 
 
-# =========================================================
-# TAB 2 — BATCH ANALYSIS
-# =========================================================
+#batch analysis
 with tab2:
     st.header("Batch Analysis")
 
@@ -199,9 +197,7 @@ with tab2:
             st.pyplot(fig)
 
 
-# =========================================================
-# TAB 3 — ABOUT
-# =========================================================
+#about section
 with tab3:
     st.header("About This Project")
 
@@ -220,5 +216,4 @@ st.markdown("---")
 st.caption("⚠️ Research Only. Not FDA Approved.")
 
 
-# ================= RUN =================
-# streamlit run app.py
+
