@@ -9,9 +9,9 @@
 ### **Cuffless Blood Pressure Estimation using PPG + Deep Learning**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Skywalker-organa/Pulse2PressureNet/main/data/screenshots/ss1.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/Skywalker-organa/Pulse2PressureNet/main/data/screenshots/ss1.jpeg" width="700"/>
   <br>
-  <img src="https://raw.githubusercontent.com/Skywalker-organa/Pulse2PressureNet/main/data/screenshots/ss2.png" width="700"/>
+  <img src="https://raw.githubusercontent.com/Skywalker-organa/Pulse2PressureNet/main/data/screenshots/ss2.jpeg" width="700"/>
 </p>
 
 **Pulse2PressureNet** is a deep learning–based biomedical AI system that estimates  
